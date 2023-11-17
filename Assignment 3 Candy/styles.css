@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Agbalumo', sans-serif;
+  line-height: 3;
+  background-image: url(img3.jpg);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: sienna;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  text-size-adjust: 200%;
+}
+
+.Home {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: chocolate;
+  padding: 0.5rem 0;
+}
+
+.Home a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.candy-item img {
+  width: 400%;
+  max-width: 600px;
+  height: 200px;
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+footer {
+  background: chocolate;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-logo img {
+  width: 100px; 
+  height: auto;
+  margin-bottom: 0rem;
+}
+
+.contact-info p {
+  margin-bottom: 0rem;
+}
+
+.quick-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.quick-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.quick-form button {
+  padding: 0rem 0.5rem;
+  background: chocolate;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.candy-info {
+  display: flex; 
+  justify-content: left; 
+  align-items: center; 
+  padding: 300px;
+}
+
+.content {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  max-width: 300px; 
+}
+a:hover{
+  background-color: chocolate;
+}
+
+
+
+
